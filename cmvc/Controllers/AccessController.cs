@@ -8,13 +8,12 @@ namespace cmvc.Controllers
 {
     public class AccessController : Controller
     {
-        // GET: Access
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Enter(String user, String password)
+        public ActionResult Enter(string user, string password)
         {
             try
             {
