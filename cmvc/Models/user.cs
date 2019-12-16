@@ -11,12 +11,16 @@ namespace cmvc.Models
 {
     using System;
     using System.Collections.Generic;
-    
+
     public partial class user
     {
+
         public int id { get; set; }
         public string email { get; set; }
         public string password { get; set; }
+
+        public int? edad { get; set; }
+
         public Nullable<int> idState { get; set; }
     
         public virtual cstate cstate { get; set; }
